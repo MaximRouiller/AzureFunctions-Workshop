@@ -20,6 +20,12 @@ Here's a sample of audiences that might be interested in this content:
 * Students and Teachers
 * Startups
 
+## Contribute
+
+If you wish to contribute, feel free to submit Pull Requests.
+
+Please reach out to me on [Twitter](https://twitter.com/MaximRouiller) if you wish to discuss this project.
+
 ## Prerequisites
 
 *TBD*
