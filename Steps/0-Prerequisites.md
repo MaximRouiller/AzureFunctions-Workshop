@@ -11,6 +11,11 @@
 
 * [Install C# VSCode Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp&WT.mc_id=azurefunctions-workshop-marouill)
 
+### .NET/F# Functions Prerequisites
+
+* [Install Ionide VSCode Extension](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp&WT.mc_id=azurefunctions-workshop-aapowell)
+  * Ensure you've met all other requirements in [Ionide's Getting Started](http://ionide.io/) guide
+
 ### JavaScript/Node.js Prerequisites
 
 *TBD*
