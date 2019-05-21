@@ -13,7 +13,7 @@ pool:
 steps:
 - task: HugoTask@1
   inputs:
-    source: '$(System.DefaultWorkingDirectory)/src/'
+    source: '$(Build.SourcesDirectory)/src/'
     destination: '$(Build.ArtifactStagingDirectory)'
     extendedVersion: true
 - task: PublishBuildArtifacts@1
