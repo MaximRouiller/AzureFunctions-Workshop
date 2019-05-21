@@ -11,6 +11,8 @@ pool:
  vmImage: 'vs2017-win2016'
 
 steps:
+- checkout: self
+  submodules: true
 - task: HugoTask@1
   inputs:
     source: '$(Build.SourcesDirectory)/src/'
