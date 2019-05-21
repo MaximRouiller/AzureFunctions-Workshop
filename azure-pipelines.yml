@@ -7,9 +7,6 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
-
 steps:
 - task: HugoTask@1
   inputs:
