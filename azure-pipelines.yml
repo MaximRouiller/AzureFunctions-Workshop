@@ -1,0 +1,23 @@
+# Starter pipeline
+
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+ vmImage: 'vs2017-win2016'
+
+steps:
+- task: HugoTask@1
+  inputs:
+    source: '$(Build.SourcesDirectory)/src/'
+    destination: '$(Build.ArtifactStagingDirectory)'
+    extendedVersion: true
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'hugo-site'
+    publishLocation: 'Container'
