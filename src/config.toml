@@ -19,7 +19,7 @@ pygmentsUseClasses = true
     weight = 2
 
 [params]
-  google_analytics_id=""
+  google_analytics_id="UA-140694684-1"
   homepage_button_link = '/workshops/functions'
   homepage_button_text = 'Go to Azure Functions Workshop'
   homepage_intro = 'Azure Workshops is a free workshop repository.'
