@@ -1,3 +1,6 @@
 [submodule "src/themes/hugo-whisper-theme"]
 	path = src/themes/hugo-whisper-theme
 	url = https://github.com/jugglerx/hugo-whisper-theme.git
+[submodule "src/themes/reveal-hugo"]
+	path = src/themes/reveal-hugo
+	url = https://github.com/dzello/reveal-hugo
