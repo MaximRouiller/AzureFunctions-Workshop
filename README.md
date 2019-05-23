@@ -1,5 +1,9 @@
 # Azure Functions Workshop
 
+## Current Content Location
+
+* [Azure Functions Workshop](https://github.com/MaximRouiller/AzureFunctions-Workshop/tree/master/src/content/workshops/functions)
+
 ## Mindmap and Plan of work
 
 ![Mindmap](media/mindmap.png)
