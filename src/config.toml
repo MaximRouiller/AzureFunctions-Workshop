@@ -2,7 +2,7 @@ baseURL = "www.azureworkshops.com"
 languageCode = "en-us"
 title = "Azure Workshops"
 themesDir = "themes"
-theme = "hugo-whisper-theme"
+theme = ["hugo-whisper-theme","reveal-hugo"]
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -39,3 +39,14 @@ pygmentsUseClasses = true
   [params.logo]
       mobile = "/images/logo-mobile.svg"
       standard  = "/images/logo.svg"
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[reveal_hugo]
+theme = "moon"
+highlight_theme = "solarized-dark"
+slide_number = true
+transition = "zoom"
