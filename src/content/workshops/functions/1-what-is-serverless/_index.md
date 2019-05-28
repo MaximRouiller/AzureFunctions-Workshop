@@ -9,6 +9,7 @@ outputs: ["Reveal"]
 - Execution model
 - Pay as you consume
 - No need to control scaling
+- Event Driven
 
 {{% note %}}
 Serverless is an execution model. Everytime you hear the word serverless, it's talking about this cloud focused execution model. Running the same code locally is a different concept.
@@ -16,6 +17,8 @@ Serverless is an execution model. Everytime you hear the word serverless, it's t
 An attribute of that execution model is that you pay for what you consume and not for what you reserve. When you create services in cloud providers, you reserve for a certain amount of CPU/RAM. This is not a necessary concern when you start a new serverless application.
 
 Serverless goes without this as the whole premise to care about servers less. Meaning that when using a serverless framework, you should not be required to control scaling at all.
+
+Finally, everything in serverless is in someway related to events. Whether we are talking about an HTTP request, a timer, a new file is added to a cloud storage, or a message to unqueue, it's all concepts found in serverless. Those events allow the Cloud provider to detect when it needs to provision more or less resources for your application.
 
 Now, how do you run code on a Serverless platform? This takes us to...
 
@@ -88,7 +91,6 @@ So, to all advantages... we must bring the other side of the coin.
 {{% /note %}}
 
 ---
-
 
 ## Why Serverless?
 
