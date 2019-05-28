@@ -41,7 +41,13 @@ Also called Functions as a Service (**FaaS**)
 
 {{% note %}}
 
-The runtime. The runtime is the code behind that runs your code. Every cloud provider offers their own but what is important to note is that it's different from Serverless. Those runtime may allow you to run your code locally or in an orchestrator.
+To run your code, it must be in an executable format for the platform you're developing for.
+
+Each platform requires you to use a certain framework or format so that it can run it properly. Each has their own runtime that will detect your code, its entry-point, the events that you are using, and more.
+
+The runtime allows the cloud provider to optimize your code execution and avoid unnecessary large amount of dependencies.
+
+For Azure Functions, the runtime is used locally when developing and on Azure when publishing your application.
 
 {{% /note %}}
 
@@ -70,8 +76,6 @@ So now that we know what serverless is, why use it? Why not just create a single
 {{% /note %}}
 ---
 
-## Why Serverless?
-
 ### Advantages
 
 - Cost
@@ -91,8 +95,6 @@ So, to all advantages... we must bring the other side of the coin.
 {{% /note %}}
 
 ---
-
-## Why Serverless?
 
 ### Disadvantages
 
