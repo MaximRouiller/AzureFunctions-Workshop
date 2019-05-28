@@ -14,7 +14,7 @@ outputs: ["Reveal"]
 {{% note %}}
 Serverless is an execution model. When you hear the word "serverless", it's talking about a cloud-focused execution model. Running the same code locally is a different concept.
 
-An attribute of that execution model is that you pay for what you consume and not for what you reserve. When you create services in cloud providers, you reserve for a certain amount of CPU/RAM. This is not a necessary concern when you start a new serverless application.
+An attribute of the execution model is that you pay for what you consume rather than for reserved resources. When you create services in cloud providers, you reserve for your application a certain amount of CPU/RAM. This is not a necessary concern when you start a new serverless application.
 
 Serverless goes without this as the whole premise to care about servers less. Meaning that when using a serverless framework, you should not be required to control scaling at all.
 
