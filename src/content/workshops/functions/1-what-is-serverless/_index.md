@@ -43,7 +43,7 @@ The runtime. The runtime is the code behind that runs your code. Every cloud pro
 
 ---
 
-### Azure Functions as a Serverless Runtime
+## Azure Functions as a Serverless Runtime
 
 - Azure Functions is the Runtime
 - Azure Functions Consumption Plan is Serverless
@@ -51,6 +51,58 @@ The runtime. The runtime is the code behind that runs your code. Every cloud pro
 
 {{% note %}}
 
-What interests us today is Azure Functions. Functions is the Microsoft FaaS implementation and using the Consumption Plan on Azure is the serverless implementation.
+What interests us today is Azure Functions. Functions is the Microsoft FaaS implementation and using the Consumption Plan on Azure is the serverless implementation. Every Function that you write today will run on your local machine as well as in the Cloud.
 
+{{% /note %}}
+
+---
+
+## Why Serverless?
+
+{{% note %}}
+
+So now that we know what serverless is, why use it? Why not just create a single VM and go from there?
+
+{{% /note %}}
+---
+
+## Why Serverless?
+
+### Advantages
+
+- Cost
+- No concern about scaling, the cloud takes care of it
+- Simplified development model
+
+{{% note %}}
+Let's start with the obvious. Cost. Since resources are not reserved, you are only getting invoiced for what you are using and most cloud providers offer you a free quota.
+
+This allows you to build an application without using a single virtual machine. A minimum viable product can be hosted for less than the cost of the milk you put in your coffee.
+
+Then, without having to care about scaling and letting your cloud provider take care of it, you can keep on focusing on your application instead of on the infrastructure.
+
+Finally, the simplified development model means that you work on smaller/simpler units. Meaning that your code is simpler to work, deploy, and scale.
+
+So, to all advantages... we must bring the other side of the coin.
+{{% /note %}}
+
+---
+
+
+## Why Serverless?
+
+### Disadvantages
+
+- Cold-start/Performance
+- Simplified development model
+- Potential Vendor Lock-in
+
+{{% note %}}
+Among the disadvantages of running serverless workloads includes Cold-Start/Performance.
+
+Running purely in a consumption plan where you can scale all the way down to 0 servers means that your application could be restarting from scratch with nothing in memory. Hence the `cold-start` meaning. Azure solves this partially by allowing an hybrid of consumption and reserved compute which we can talk about later.
+
+With a simplified development model brings its own issues. Things being simpler means that you can tweak and customize everything as easily as if you had 100% control of the application.
+
+Finally, each vendor has their own implementation meaning that every application built with this model is at least lightly tied to the vendor that you use.
 {{% /note %}}
