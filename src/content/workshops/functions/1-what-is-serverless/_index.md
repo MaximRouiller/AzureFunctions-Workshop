@@ -16,7 +16,7 @@ Serverless is an execution model. When you hear the word "serverless", it's talk
 
 An attribute of the execution model is that you pay for what you consume rather than for reserved resources. When you create services in cloud providers, you reserve for your application a certain amount of CPU/RAM. This is not a necessary concern when you start a new serverless application.
 
-Serverless goes without this as the whole premise to care about servers less. Meaning that when using a serverless framework, you should not be required to control scaling at all.
+The point of a serverless application is to focus on your application code, and less about the underlying infrastructure. 
 
 Finally, everything in serverless is in someway related to events. Whether we are talking about an HTTP request, a timer, a new file is added to a cloud storage, or a message to unqueue, it's all concepts found in serverless. Those events allow the Cloud provider to detect when it needs to provision more or less resources for your application.
 
