@@ -31,6 +31,7 @@ Available Runtimes:
 - AWS Lambda
 - Google Cloud Functions
 - IBM Cloud Functions
+- OpenFaaS
 - ...
 
 Also called Functions as a Service (**FaaS**)
@@ -95,6 +96,7 @@ So, to all advantages... we must bring the other side of the coin.
 
 - Cold-start/Performance
 - Simplified development model
+- 
 - Potential Vendor Lock-in
 
 {{% note %}}
@@ -102,7 +104,7 @@ Among the disadvantages of running serverless workloads includes Cold-Start/Perf
 
 Running purely in a consumption plan where you can scale all the way down to 0 servers means that your application could be restarting from scratch with nothing in memory. Hence the `cold-start` meaning. Azure solves this partially by allowing an hybrid of consumption and reserved compute which we can talk about later.
 
-With a simplified development model brings its own issues. Things being simpler means that you can tweak and customize everything as easily as if you had 100% control of the application.
+With a simplified development model brings its own issues. Things being simpler means that you can't tweak and customize everything as easily as if you had 100% control of the application.
 
 Finally, each vendor has their own implementation meaning that every application built with this model is at least lightly tied to the vendor that you use.
 {{% /note %}}
