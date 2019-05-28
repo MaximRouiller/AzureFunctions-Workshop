@@ -74,6 +74,7 @@ What interests us today is Azure Functions. Functions is the Microsoft FaaS impl
 So now that we know what serverless is, why use it? Why not just create a single VM and go from there?
 
 {{% /note %}}
+
 ---
 
 ### Advantages
@@ -100,7 +101,6 @@ So, to all advantages... we must bring the other side of the coin.
 
 - Cold-start/Performance
 - Simplified development model
-- 
 - Potential Vendor Lock-in
 
 {{% note %}}
