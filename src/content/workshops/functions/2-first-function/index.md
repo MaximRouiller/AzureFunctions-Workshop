@@ -4,8 +4,6 @@ date: 2019-05-29 13:33:44
 weight: 102
 ---
 
-## Creating my first function
-
 ### Goal
 
 Before we can move to creating serverless applications, we must first create our first function.
