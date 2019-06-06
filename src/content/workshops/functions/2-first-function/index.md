@@ -83,7 +83,7 @@ The terminal will open. Tons of steps are going to be happening within Visual St
 
 The first steps you are going to see is a `dotnet clean`. This is the first clue that Azure Functions is running with .NET Core.
 
-.NET Core is a cross platform runtime that allows you to run on Mac, Linux, and Windows.
+.NET Core is a cross platform runtime that allows you to run on Mac, Linux, and Windows. [Learn more about .NET Core.](https://docs.microsoft.com/dotnet/core/?WT.mc_id=azurefunctions-workshop-marouill)
 
 Here's the list of commands that are going to be run everytime we press F5.
 
@@ -129,5 +129,5 @@ Congratulation! You just completed your first function!
 
 ### Reference Documentation
 
-- [FunctionName valid parameters/name/etc](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-class-library#methods-recognized-as-functions)
-- [HttpTrigger](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook#trigger)
+- [FunctionName valid parameters/name/etc](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-class-library?WT.mc_id=azurefunctions-workshop-marouill#methods-recognized-as-functions)
+- [HttpTrigger](https://docs.microsoft.com/azure/azure-functions/functions-bindings-http-webhook?WT.mc_id=azurefunctions-workshop-marouill#trigger)
