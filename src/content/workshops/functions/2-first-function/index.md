@@ -10,9 +10,9 @@ Before we can move to creating serverless applications, we must first create our
 
 ### Steps for C#
 
-1) We create a folder in D:\git\MyApp
-2) We open VS Code folder D:\git\MyApp
-3) CTRL-SHIFT-P `Azure Functions: Create New Project...`
+1. We create a folder in D:\git\MyApp
+2. We open VS Code folder D:\git\MyApp
+3. CTRL-SHIFT-P `Azure Functions: Create New Project...`
     1. Current folder
     2. C# (Requires .NET Core SDK)
     3. Azure Functions V2
