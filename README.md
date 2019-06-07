@@ -26,6 +26,24 @@ Here's a sample of audiences that might be interested in this content:
 
 ## Contribute
 
-If you wish to contribute, feel free to submit Pull Requests.
+If you wish to contribute, start by cloning the repository:
+
+```sh
+> git clone https://github.com/MaximRouiller/AzureFunctions-Workshop.git
+```
+
+Then restore the submodules:
+
+```sh
+> git submodule update --init --recursive
+```
+
+You can run it locally using the VS Code task `Run Server` or using the Hugo cli (which is in the repositroy root):
+
+```sh
+> ./hugo serve --source ./src
+```
+
+Then make your changes and submit a Pull Request! 😁
 
 Please reach out to me on [Twitter](https://twitter.com/MaximRouiller) if you wish to discuss this project.
